@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Commit Message Generator</title>
+    <title>TCR Commit Message Generator</title>
     <link rel="author" href="/humans.txt" />
     <style>
         body {
@@ -28,19 +28,14 @@
             text-decoration: underline;
         }
     </style>
-    <meta name="description" content="{{ message }}">
-    <meta property="og:title" content="Commit Message Generator" />
-    <meta property="og:description" content="{{ message }}" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://www.whatthecommit.com/{{ message_hash }}" />
 </head>
 <body>
     <div id="content">
         <p>{% raw message %}</p>
         <p class="permalink">
-            [<a href="/{{ message_hash }}">permalink</a>]
+            [<a href="https://github.com/bennovandorst/TCR-Commit-Generator">Github</a>]
         </p>
     </div>
 </body>
-<!-- Like what you see? https://github.com/ngerakines/commitment -->
+<!-- Forked from https://github.com/ngerakines/commitment -->
 </html>

@@ -199,7 +199,7 @@ async def main():
         ],
         **settings,
     )
-    application.listen(os.environ.get("PORT", 3000))
+    application.listen(os.environ.get("PORT", 5555))
     await asyncio.Event().wait()
 
 
