@@ -21,6 +21,8 @@ function App() {
   return (
     <div className="content">
       <p>{message}</p>
+
+      <p>- Iemand op het TCR</p>
       <p className="github">
         [<a href="https://github.com/bennovandorst/TCR-Commit-Generator">Github</a>]
       </p>
