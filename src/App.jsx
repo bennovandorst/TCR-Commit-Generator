@@ -4,6 +4,10 @@ import './App.css';
 function App() {
   const [message, setMessage] = useState('');
 
+  const capatalizeFirstLetter = (string) => {
+    return string.charAt(0).toUpperCase() + string.slice(1);
+  };
+
   const getRandomMessage = (messages) => {
     const randomIndex = Math.floor(Math.random() * messages.length);
     return messages[randomIndex];
@@ -13,7 +17,7 @@ function App() {
     fetch('/commitMessages.json')
       .then(response => response.json())
       .then(data => {
-        setMessage(getRandomMessage(data.messages));
+        setMessage(capatalizeFirstLetter(getRandomMessage(data.messages)));
       })
       .catch(error => console.error('Error fetching commit messages:', error));
   }, []);
