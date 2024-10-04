@@ -21,7 +21,7 @@ function App() {
   return (
     <div className="content">
       <p>{message}</p>
-      <p className="permalink">
+      <p className="github">
         [<a href="https://github.com/bennovandorst/TCR-Commit-Generator">Github</a>]
       </p>
     </div>
