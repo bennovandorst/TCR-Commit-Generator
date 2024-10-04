@@ -28,6 +28,9 @@ function App() {
 
       <p>- Iemand op het TCR</p>
       <p className="github">
+        [<a href="https://commit.bennocraft.net/index.txt">Raw</a>]
+      </p>
+      <p className="github">
         [<a href="https://github.com/bennovandorst/TCR-Commit-Generator">Github</a>]
       </p>
     </div>
