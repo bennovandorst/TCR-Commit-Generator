@@ -16,3 +16,5 @@ Copyright (c) 2010-2024 Nick Gerakines <nick@gerakines.net>
 This project and its contents are open source under the MIT license.
 
 Forked door Benno van Dorst <9024828@tcrmbo.nl>
+
+Ik ben niet aansprakelijk voor de PRs die gesubmit worden!
